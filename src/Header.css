@@ -1,0 +1,152 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+.header{
+    width:100%;
+    height:200px;
+    background-color: rgb(34, 49, 52,0.9);
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    z-index: 10;
+}
+
+.logo{
+    color: aliceblue;
+    height: 100%;
+    width: 400px;
+}
+
+.logo p{
+    margin-top: 10px;
+    margin-left:10px;
+    font-size: 25px;
+}
+
+.logo h1{
+    font-size:50px;
+    text-align: center;
+    margin-top:10px;
+    font-size: 90px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    padding: 40px;
+    font-size: 40px;
+    border-radius: 20px;
+}
+
+.inqu{
+    opacity: 0.8;
+    background-color: blue;
+    color: white;
+    padding: 0 40px;
+    font-size: 40px;
+    border-radius: 30px;
+    font-family: sans-serif;
+    font-family: bold;
+}
+
+.inqu:hover{
+    opacity: 1;
+}
+
+.tel{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 0px 20px ;
+    background-color: black;
+    padding: 0px 20px;
+    border-radius: 30px;
+}
+
+.iform{
+    position: fixed;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left:0;
+    background-color: rgb(34, 49, 52,0.9);
+}
+
+.terms{
+    width: 480px;
+    top:8%;
+    right: 0;
+    left:0;
+    margin: auto;
+    margin-bottom: 60px;
+    text-align: center;
+    background-color: rgb(243, 248, 248);
+    color: black;
+    position:absolute;
+    border-radius: 20px;
+}
+
+.terms p{
+    font-size: 30px;
+    font-family: sans-serif;
+    margin: 10px;
+}
+
+input .oto{
+    width: 300px;
+}
+
+.small{
+    font-size: 10px;
+}
+
+input{
+    font-size: 20px;
+}
+
+.close{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.sub-comp{
+    width: 480px;
+    top:8%;
+    right: 0;
+    left:0;
+    margin: auto;
+    margin-bottom: 60px;
+    text-align: center;
+    background-color: rgb(137, 216, 117);
+    color: white;
+    position:absolute;
+    border-radius: 20px;
+}
+
+@media screen and (max-width:1015px){
+    .header{
+        height:150px;
+    }
+    
+    .logo{
+        width: 400px;
+    }
+    
+    .logo p{
+        margin-top: 5px;
+        margin-left:5px;
+        font-size: 25px;
+    }
+    
+    .logo h1{
+        margin-top:5px;
+        font-size: 70px;
+    }
+    
+    .nav{
+        padding: 20px;
+        font-size: 30px;
+    }
+}

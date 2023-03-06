@@ -1,0 +1,43 @@
+.topt{
+    height: 1100px;
+    background-image: url("./imgs/bangla.jpeg");
+    background-size: cover;
+    /* background-color: aqua; */
+}
+
+.topt h1{
+    font-size: 100px;
+    color: #fff;
+    padding-left: 40px;
+    padding-top: 450px;
+}
+
+@media screen and (max-width:2500px){
+    .topt{
+        height: 900px;
+    }
+    .topt h1{
+        font-size: 80px;
+        padding-top: 400px;
+    }
+}
+
+@media screen and (max-width:1500px){
+    .topt{
+        height: 750px;
+    }
+    .topt h1{
+        font-size: 70px;
+        padding-top: 320px;
+    }
+}
+@media screen and (max-width:1000px){
+    .topt{
+        height: 600px;
+    }
+    .topt h1{
+        font-size: 50px;
+        padding-top: 280px;
+        padding-left: 60px;
+    }
+}

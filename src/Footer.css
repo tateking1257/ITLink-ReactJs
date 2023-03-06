@@ -1,0 +1,85 @@
+.footer{
+    text-align: center;
+    height: 1050px;
+    background-color: rgb(0, 136, 255);
+    padding-top: 100px;
+    color: #fff;
+    font-size: 30px;
+}
+
+.footer h1{
+    margin-bottom: 50px;
+}
+
+.inqu2{
+    background-color: rgb(17, 22, 178);
+    padding:25px 400px;
+    font-size: 60px;
+    text-align: center;
+    border-radius:20px;
+    color:white;
+    font-family: bold;
+    opacity:0.8;
+    /* font-family: "Hiragino Kaku Gothic ProN"; */
+    font-weight: bold;
+    border: 8px solid white;
+    text-decoration: none;
+}
+
+.inqu2:hover{
+    opacity: 1;
+}
+
+.contact{
+    margin: 40px 0 30px 0;
+}
+
+.contact h2{
+    font-size: 50px;
+}
+
+.contact p{
+    font-size: 35px;
+}
+
+.lsm img{
+    margin-top: 40px;
+}
+
+.footer h1{
+    margin-top: 20px;
+}
+
+@media screen and (max-width:1200px){
+    .footer{
+        height: 900px;
+        padding-top: 50px;
+        font-size: 20px;
+    }
+    
+    .footer h1{
+        margin-bottom: 50px;
+    }
+    
+    .inqu2{
+        background-color: rgb(17, 22, 178);
+        padding:25px 150px;
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .contact{
+        margin: 20px 0 10px 0;
+    }
+    
+    .contact h2{
+        font-size: 40px;
+    }
+    
+    .contact p{
+        font-size: 30px;
+    }
+    .iunf{
+        font-size: 25px;
+    }
+}
